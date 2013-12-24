@@ -3,9 +3,9 @@ layout: default
 ---
 <section class="post">
 	<header class="post-header">
-		<h2 class="post-title"><a href="{{page.url}}">{{page.title}}</a></h2>
+		<h2 class="post-title">{{page.title}}</h2>
 		<p class="post-meta">
-			By <a href="#" class="post-author">{{page.author}}</a> <p class="meta">{{ page.date | date_to_string }}</p>
+			By <b>{{page.author}}</b> <span class="post-meta">{{ page.date | date_to_string }}</span>
 		</p>
 	</header>
 	<div class="post-description">
