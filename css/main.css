@@ -35,12 +35,18 @@ a:focus {
   text-align: right;
 }
 
-.brand-title,
-.brand-tagline {
+.title,
+.main-title,
+.sub-title {
   margin: 0;
 }
 
-.brand-tagline {
+.title{
+  color: #fff;
+}
+
+.sub-title{
+  color: #efefef;
 }
 
 .content-subhead {
@@ -67,9 +73,8 @@ a:focus {
 }
 .post-avatar {
   border-radius: 50px;
-  /*float: right;
-  margin-left: 1em;*/
 }
+
 .post-description {
 
   color: #444;
