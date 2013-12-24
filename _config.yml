@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 paginate: 10
 paginate_path: "pages/:num"
-baseurl: "/hassanin-ahmed"
+baseurl: "http://sas1ni69.github.io/hassanin-ahmed"
