@@ -2,3 +2,4 @@ name: Hassanin Ahmed's Blog
 markdown: redcarpet
 pygments: true
 paginate: 10
+paginate_path: "pages/:num"
